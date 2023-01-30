@@ -44,10 +44,8 @@ It can be allocated either in heap or stack, but most of the time it refers to h
 Examples of dynamic allocated memory are the examples provided for heap memory.
 
 
-
 Stack Memory vs Heap Memory (Key!)
 -
-
 Imagine you're playing a game where you have a toy box. The toy box is like the computer's memory.
 
 When you play with certain toys, like blocks or action figures, you use them for a short time and then put them back in the toy box. These are like the local variables in a program - they're used for a specific purpose and then they're done with. The toy box takes care of cleaning them up and putting them back in the right place. This is like the stack memory in a computer.
