@@ -1,7 +1,7 @@
 Dynamic Memory Q&A
 =
 -
-In summary, Heap memory and stack memory are two different ways in which the memory is managed by the operating system, while dynamic allocated memory refers to the process of allocating memory during the runtime, which can happen either in heap or stack memory.
+So what sort of variables are labeled as dynamically allocated memory? Variables like global variables?
 -
 
 Dynamically allocated memory is memory that is allocated at runtime, rather than at compile-time. Global variables are allocated at compile-time, when the program is first loaded into memory. Therefore, global variables are not considered as dynamically allocated memory.
