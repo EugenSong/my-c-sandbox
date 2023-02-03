@@ -46,3 +46,15 @@ Notes on Dereference (&) / Pointer (*)
   		[char *ptr ... create a char pointer named ptr]
 
 ```
+
+char * vs char **
+-
+```c
+char *ptr - refers to a pointer to a character, in other words, string - holds 
+the memory address of the first character of the string
+
+char **ptr - refers to a pointer to a pointer of characters, 
+meaning it holds the memory address of another character pointer
+
+char * is one-dimensional array of characters, while 
+char ** is a two-dimensional array of characters, aka array of strings
